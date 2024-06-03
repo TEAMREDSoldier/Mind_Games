@@ -14,7 +14,8 @@
   "license": "ISC",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "bugs": {
     "url": "https://github.com/TEAMREDSoldier/Mind_Games/issues"
