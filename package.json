@@ -12,12 +12,12 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js"
   },
+  "type": "module",
   "bugs": {
     "url": "https://github.com/TEAMREDSoldier/Mind_Games/issues"
   },
