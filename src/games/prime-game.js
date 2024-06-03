@@ -1,6 +1,5 @@
 import startGame from '../index.js';
-
-const getRandomNumbers = (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+import randoMumbers from '../randoMumbers.js';
 
 const isPrime = (number) => {
   if (number <= 1) {
@@ -17,7 +16,7 @@ const isPrime = (number) => {
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const generateRounds = () => {
-  const question = getRandomNumbers();
+  const question = randoMumbers();
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };

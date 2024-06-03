@@ -1,6 +1,5 @@
 import startGame from '../index.js';
-
-const getRandomNumbers = (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+import randoMumbers from '../randoMumbers.js';
 
 const getGreatestCommonDivisor = (firstNum, secondNum) => {
   while (secondNum !== 0) {
@@ -13,9 +12,9 @@ const getGreatestCommonDivisor = (firstNum, secondNum) => {
 
 const gameDescription = 'Find the greatest common divisor of given numbers';
 
-const generateRoundsData = () => {
-  const firstNumber = getRandomNumbers();
-  const secondNumber = getRandomNumbers();
+const generateRounds = () => {
+  const firstNumber = randoMumbers();
+  const secondNumber = randoMumbers();
 
   const question = `${firstNumber} ${secondNumber}`;
   const greatestCommonDivisor = getGreatestCommonDivisor(firstNumber, secondNumber);
@@ -25,5 +24,5 @@ const generateRoundsData = () => {
 };
 
 export default () => {
-  startGame(gameDescription, generateRoundsData);
+  startGame(gameDescription, generateRounds);
 };
