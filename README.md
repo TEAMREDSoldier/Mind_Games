@@ -14,3 +14,6 @@ https://asciinema.org/a/n18H8czULfoi9jfuvgZKX2fFL
 
 Аскинема игры "Прогрессия":
 https://asciinema.org/a/JboZSG0E4oswEdaVxerhKqm6l
+
+Аскинема игры "Простые числа":
+https://asciinema.org/a/Suipln9FuoK1Ahpso5GDLNpqx
