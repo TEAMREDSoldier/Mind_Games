@@ -3,6 +3,8 @@
 
 <a href="https://codeclimate.com/github/TEAMREDSoldier/Mind_Games/maintainability"><img src="https://api.codeclimate.com/v1/badges/d64210de8ee29ebe79e2/maintainability" /></a>
 
-Пример игры "Проверка на чётность":
+Аскинема игры "Проверка на чётность":
 https://asciinema.org/a/zSUGqTgh9k4h0WZIRIQaC95Bt
 
+Аскинема игры "Калькулятор":
+https://asciinema.org/a/w3m4K6UiGY82MnHMmhm6F3xky
