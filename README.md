@@ -11,3 +11,6 @@ https://asciinema.org/a/w3m4K6UiGY82MnHMmhm6F3xky
 
 Аскинема игры "НОД":
 https://asciinema.org/a/n18H8czULfoi9jfuvgZKX2fFL
+
+Аскинема игры "Прогрессия":
+https://asciinema.org/a/JboZSG0E4oswEdaVxerhKqm6l
